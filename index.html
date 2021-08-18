@@ -65,7 +65,7 @@ $(document).ready(function() {
   $('#open').click(function(evt) {
   	 evt.preventDefault();
   	 if ($('#login form').is(':hidden')) {
-  		$('#login form').fadeIn(300);
+  		$('#login form').slideDown(500);
 	 	$(this).addClass('close'); 
   	} else {
   		$('#login form').slideUp(600);
